@@ -6,7 +6,7 @@
 <hr>
 
 <img width="785" alt="Screenshot 2022-11-21 at 12 02 08 AM" src="https://user-images.githubusercontent.com/55745745/202919738-9e282d06-3fd6-4b3b-8a97-34201735d9d1.png">
-<!-- import UIKit
+import UIKit
 class ViewController: UIViewController {
 override func viewDidLoad() {
 super.viewDidLoad()
@@ -19,4 +19,4 @@ print (colors)
 }
 catch {}
 }
-} -->
+} 
