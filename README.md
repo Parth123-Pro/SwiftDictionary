@@ -10,11 +10,11 @@ import UIKit<br>
 class ViewController: UIViewController {<br>
 override func viewDidLoad() {<br>
 super.viewDidLoad()<br>
-let path = Bundle.main.path(for Resource: "colors", of Type: "json")<br>
+let path = Bundle.main.path(forResource: "colors", of Type: "json")<br>
 let url = URL (fileURLWithPath: path!)<br>
 do {<br>
-let data = try Data (contents of: url)<br>
-let colors = try JSONDecoder ().decode([String: [Int]].self, from: data)<br>
+let data = try Data (contentsOf: url)<br>
+let colors = try JSONDecoder().decode([String: [Int]].self, from: data)<br>
 print (colors)<br>
 }<br>
 catch {}<br>
